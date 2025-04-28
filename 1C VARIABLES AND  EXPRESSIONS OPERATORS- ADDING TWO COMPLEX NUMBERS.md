@@ -13,17 +13,27 @@ To write a Python program for adding two complex numbers, and get the user input
 
 ## PROGRAM
 ```python
-a=eval(input())
-b=eval(input())
-print("A is",a)
-print("B is",b)
-print("Sum is",a+b)
+ch=input()
+
+if(ch=='a' or ch=='A'):
+    print("The given character is a vowel")
+elif(ch=='e' or ch=='E'):
+    print("The given character is a vowel")
+elif(ch=='i' or ch=='I'):
+    print("The given character is a vowel")
+elif(ch=='o' or ch=='O'):
+    print("The given character is a vowel")
+elif(ch=='u'or ch=='U'):
+    print("The given character is a vowel")
+else:
+    print("The given character is NOT a vowel")
 
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c764a8de-2e90-466c-ab70-99557480a255)
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+A Python program to check whether the given character is a vowel or not using if..else statement has been implemented and executed successfully.
 
